@@ -94,13 +94,13 @@ def time_stats(df):
 
     # TO DO: display the most common month
     most_common_month = df['month'].mode()[0]
-    print('For the selected filter, the month with the most travels is: ' , most_common_month)
+    print('For the selected filter, the month with the most travels is: {}'.format(most_common_month))
     # TO DO: display the most common day of week
     most_common_dow = df['day_of_week'].mode()[0]
-    print('For the selected filter, the most common day of the week is: ', most_common_dow)
+    print('For the selected filter, the most common day of the week is: {}'.format(most_common_dow))
     # TO DO: display the most common start hour
     most_common_sh = df['hour'].mode()[0]
-    print('For the selected filter, the most common start hour is: ' , most_common_sh)
+    print('For the selected filter, the most common start hour is: {}'.format(most_common_sh))
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
