@@ -24,6 +24,7 @@ def get_filters():
             break
 
     # TO DO: get user input for month (all, january, february, ... , june)
+	#months list
     month_lst = ['all','january', 'february', 'march', 'april', 'may', 'june']
 
     while True:
